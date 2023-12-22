@@ -1,0 +1,55 @@
+/* NAVIGATION BAR */
+#navbar {
+    padding-top: 5px; /* Reduce top padding for better spacing on iPhone 12 Pro Max */
+    padding-bottom: 5px; /* Reduce bottom padding for better spacing on iPhone 12 Pro Max */
+  }
+
+  #navbar #logo {
+    width: 80px; /* Decrease logo width for iPhone 12 Pro Max */
+  }
+
+  #navbar ul li a {
+    padding: 8px 15px; /* Reduce padding for menu items on iPhone 12 Pro Max */
+    font-size: 16px; /* Decrease font size for menu items on iPhone 12 Pro Max */
+  }
+
+  .button {
+    padding: 8px 15px; /* Reduce padding for buttons on iPhone 12 Pro Max */
+    font-size: 16px; /* Decrease font size for buttons on iPhone 12 Pro Max */
+  }
+
+  /* SERVICES SECTION */
+  #services .box {
+    height: 320px; /* Reduce box height for iPhone 12 Pro Max */
+    width: 280px; /* Reduce box width for iPhone 12 Pro Max */
+  }
+
+  #services .box img {
+    width: 130px; /* Decrease image width for iPhone 12 Pro Max */
+    height: 130px; /* Decrease image height for iPhone 12 Pro Max */
+  }
+
+  /* CLIENTS SECTION */
+  .client-section::before {
+    height: 240px; /* Reduce pseudo-element height for iPhone 12 Pro Max */
+  }
+
+  .client-items img {
+    height: 120px; /* Decrease image height for iPhone 12 Pro Max */
+    margin: 15px; /* Adjust margin for images on iPhone 12 Pro Max */
+  }
+
+  /* CONTACT SECTION */
+  #contact {
+    padding: 50px 0; /* Reduce padding for iPhone 12 Pro Max */
+  }
+
+  #contact-box form {
+    width: 80%; /* Reduce form width for iPhone 12 Pro Max */
+  }
+
+  #contact-box input,
+  #contact-box textarea {
+    padding: 10px; /* Reduce padding for inputs and textarea on iPhone 12 Pro Max */
+    font-size: 16px; /* Decrease font size for inputs and textarea on iPhone 12 Pro Max */
+  }

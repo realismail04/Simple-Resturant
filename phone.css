@@ -1,0 +1,72 @@
+
+
+#navbar #logo{
+    width: 100px;
+    height: auto;
+  }
+#navbar {
+    /* padding: 10px; Adjust padding for mobile devices */
+    flex-direction: column; /* Stack items vertically for mobile devices */
+    justify-content: center; /* Center align items vertically */
+  }
+
+  #navbar ul {
+    margin-top: 15px; /* Adjust margin for mobile devices */
+  }
+
+  #navbar ul li a {
+    padding: 10px 20px; /* Adjust padding for mobile devices */
+    margin-bottom: 10px; /* Add margin between menu items for mobile devices */
+  }
+
+  .button {
+    margin-left: 0; /* Adjust margin for mobile devices */
+    margin-top: 15px; /* Adjust margin for mobile devices */
+  }
+
+/* HOME SECTION  */
+
+
+    #home {
+      padding: 3px 30px; /* Adjust padding for mobile devices */
+      height: 350px; /* Allow height to adjust based on content */
+    }
+  
+    #home h1 {
+      font-size: 20px; /* Increase font size for mobile devices */
+      margin-bottom: 10px; /* Adjust margin for mobile devices */
+    }
+  
+    #home p {
+      font-size: 14px; /* Adjust font size for mobile devices */
+    }
+  
+
+
+
+
+
+/* SERVICES SECTION  */
+#services {
+    margin: 10px; /* Adjust margin for mobile devices */
+  }
+
+  #services .box {
+    width: 100%; /* Set full width for mobile devices */
+    max-width: 300px; /* Set a maximum width for each box */
+  }
+
+/* CLIENTS SECTION  */
+.client-items {
+    flex-direction: column; /* Stack client items vertically for mobile devices */
+  }
+
+  .client-items img {
+    height: 100px; /* Decrease image height for mobile devices */
+  }
+
+/* CONTACT US */
+#contact-box form {
+    width: 100%; /* Use full width for the form on mobile devices */
+  }
+/* FOOTER */

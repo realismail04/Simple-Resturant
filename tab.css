@@ -1,0 +1,52 @@
+/* NAVIGATION */
+#navbar #logo{
+    width: 100px;
+    height: auto;
+  }
+
+
+  #navbar ul li a {
+    padding: 13px 30px; /* Increase padding for tablets and desktops */
+  }
+
+  .button {
+    margin-left: 10px; /* Adjust margin for tablets and desktops */
+  }
+
+
+/* HOME SECTION  */
+
+#home {
+    padding: 3px 100px; /* Adjust padding for tablets */
+  }
+
+  #home h1 {
+    font-size: 24px; /* Increase font size for tablets */
+  }
+
+  #home p {
+    font-size: 16px; /* Adjust font size for tablets */
+  }
+
+/* SERVICES SECTION  */
+#services .box {
+    width: 240px; /* Reduce width for tablets */
+  }
+/* CLIENT  */
+.client-items img {
+    height: 120px; /* Decrease image height for tablets */
+  }
+
+  /* CONTACT */
+  #contact-box {
+    flex-direction: row; /* Align form elements in a row for tablets and desktops */
+  }
+
+  #contact-box form {
+    width: 60%; /* Adjust width for tablets and desktops */
+  }
+
+  #contact-box input,
+  #contact-box textarea {
+    width: 100%; /* Use full width for inputs and textarea on tablets and desktops */
+  }
